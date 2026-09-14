@@ -2,7 +2,8 @@
 
 **Version 1.0**
 
-Airspy est un outil en ligne de commande (Python) destiné à l'audit de réseaux sans fil. Il regroupe en un seul utilitaire le scan Wi-Fi, le scan Bluetooth Low Energy et la réception de signaux radio ISM (via RTL-SDR / `rtl_433`), avec un mode d'audit complet automatisé.
+Airspy est un projet scolaire réalisé par deux étudiants en cybersécurité à l'ESME.
+Il s'agit d'outil en ligne de commande (Python) destiné à l'audit de réseaux sans fil. Il regroupe en un seul utilitaire le scan Wi-Fi, le scan Bluetooth Low Energy et la réception de signaux radio ISM (via RTL-SDR / `rtl_433`), avec un mode d'audit complet automatisé.
 
 > ⚠️ **Usage légal uniquement.** Cet outil manipule des interfaces réseau en mode moniteur et peut envoyer des trames de désauthentification Wi-Fi. Ces opérations sont encadrées par la loi dans la plupart des pays (en France notamment, l'article 323-1 du Code pénal). N'utilisez Airspy que sur des réseaux et équipements dont vous êtes propriétaire ou pour lesquels vous disposez d'une autorisation écrite explicite (pentest contractuel, CTF, labo personnel isolé, etc.).
 
