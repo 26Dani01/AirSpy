@@ -230,6 +230,10 @@ Les résultats sont consignés, horodatés, dans un fichier `audit.txt` créé (
 - `Airspy.py` importe `pywifi` mais ne s'en sert pas directement dans les fonctions actuelles (le scan Wi-Fi s'appuie sur `airodump-ng`) ; l'import peut être superflu selon l'évolution du code.
 - Le mode `--live-sdr` tourne indéfiniment jusqu'à interruption manuelle (Ctrl+C) et ignore le `-T` fourni.
 
+## Contact
+Thomas BOTTINELLI: thomas.bottinelli@esme.fr
+Daniel EUNG: daniel.eung@esme.fr
+
 ## Avertissement légal
 
 Airspy manipule des équipements radio et réseau et peut interférer avec des communications tierces (scan passif ou attaque active de désauthentification). L'utilisation de cet outil doit se limiter à :
